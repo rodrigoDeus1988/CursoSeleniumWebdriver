@@ -8,7 +8,6 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 public class test2 {
 
@@ -21,7 +20,7 @@ public class test2 {
 
 		navegador.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-	}
+	} 
 
 	@Test
 	public void testAdicionarInformacaoDoUsuario() {
